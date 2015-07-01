@@ -21,19 +21,7 @@ div.text_cell {
 
 div.text_cell_render {
     font-family: "Crimson Text";
-    font-size: 16pt;
     line-height: 130%; /* added for some line spacing of text. */
-}
-
-div.text_cell_render h1,
-div.text_cell_render h2,
-div.text_cell_render h3,
-div.text_cell_render h4,
-div.text_cell_render h5,
-div.text_cell_render h6 {
-    font-family: 'Kameron';
-    font-weight: 300;
-    color : #3399CC ;
 }
 
 div.text_cell_render h1 {
@@ -44,16 +32,29 @@ div.text_cell_render h1 {
 }
 
 div.text_cell_render h2 {
-    font-size: 25pt;
+    font-size: 30pt;
     font-weight: bold;
     color : #3399CC ;
     text-decoration: underline;
 }
 
 div.text_cell_render h3 {
+    font-size: 25pt;
+    font-weight: bold;
+    color : #3399CC ;
+    text-decoration: underline;
+}
+
+div.text_cell_render h4 {
     font-size: 20pt;
     color : #3399CC ;
+    font-style: italic;
+}
 
+div.text_cell_render h5 {
+    font-size: 15pt;
+    color : #3399CC ;
+    text-decoration: underline;
 }
 
 .rendered_html pre,
