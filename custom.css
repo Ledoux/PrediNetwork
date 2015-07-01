@@ -21,6 +21,7 @@ div.text_cell {
 
 div.text_cell_render {
     font-family: "Crimson Text";
+    font-size: 18pt;
     line-height: 130%; /* added for some line spacing of text. */
 }
 
